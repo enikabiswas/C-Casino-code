@@ -7,6 +7,7 @@
 //
 //
 //Testing to see if works on github
+//Testing the clone 
 
 
 #include <string>
