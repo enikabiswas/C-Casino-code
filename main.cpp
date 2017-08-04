@@ -5,7 +5,9 @@
 //  Created by enika biswas on 7/24/17.
 //  Copyright © 2017 enika biswas. All rights reserved.
 //
-//Test to work with github
+//
+//Testing to see if works on github
+//la di da
 
 #include <string>
 #include <iostream>
@@ -66,6 +68,7 @@ const int TripleString::MAX_LEN = 20;
 
 // main method
 int main() {
+   cout << "Welcome to the casino!" 
     int x = 1;
     srand((int)time(0));
     while(true) {
