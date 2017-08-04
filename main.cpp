@@ -68,9 +68,9 @@ const int TripleString::MAX_LEN = 20;
 
 // main method
 int main() {
-   cout << "Welcome to the casino!" 
     int x = 1;
     srand((int)time(0));
+    cout << "Welcome to the casino!";
     while(true) {
       x = getBet();
       if(x == 0)
@@ -78,7 +78,7 @@ int main() {
       TripleString pulled = pull();
       int winnings = getPayMultiplier(pulled) * x;
       display(pulled, winnings);
-      cout << endl << endl;
+      cout << endl;
    }
 
    return 0;
